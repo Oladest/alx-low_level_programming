@@ -5,7 +5,7 @@
 * @s2: input value
 * Return: s1[1] = s2[1]
 */
-int _strcmp(char *char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int i;
 
