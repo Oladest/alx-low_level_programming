@@ -1,9 +1,7 @@
 #include "main.h"
-#include <unistd.h>
 /**
-* _puts_recursion - function like puts();
-* @s: input
-* Return: Always 0 (success)
+* _puts_recursion - print a string follow by new line
+* @s: string to print
 */
 void _puts_recursion(char *s)
 {
