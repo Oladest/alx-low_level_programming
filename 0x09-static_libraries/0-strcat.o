@@ -2,7 +2,7 @@
 /**
 * _strcat - function that concentrates two strings
 * @dest: entered value
-* @arc: entered value
+* @src: entered value
 *
 * Return: void
 */
@@ -17,9 +17,9 @@ char *_strcat(char *dest, char *src)
 		a++
 	}
 	b = 0;
-	while (arc[b] != '\0')
+	while (src[b] != '\0')
 	{
-		dest[a] = arc[b];
+		dest[a] = src[b];
 		a++;
 		b++;
 	}
